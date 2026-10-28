@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng của bạn</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+    <main class="container">
+        <header class="page-header">
+            <p class="eyebrow">CỬA HÀNG CỦA BẠN</p>
+            <h1>Giỏ hàng của bạn</h1>
+            <p class="subtitle">Kiểm tra sản phẩm và số lượng trước khi thanh toán.</p>
+        </header>
+
+        <section class="cart-card" aria-labelledby="cart-title">
+            <div class="card-heading">
+                <div>
+                    <h2 id="cart-title">Sản phẩm đã chọn</h2>
+                    <p class="muted">Các sản phẩm đang có trong giỏ hàng</p>
+                </div>
+                <span class="count" id="cart-count">(0 sản phẩm)</span>
+            </div>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col-number">STT</th>
+                            <th>Hình ảnh</th>
+                            <th>Tên sản phẩm</th>
+                            <th class="align-right">Đơn giá</th>
+                            <th class="align-center">Số lượng</th>
+                            <th class="align-right">Thành tiền</th>
+                            <th class="align-center">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-list"></tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" class="total-label">Tổng tiền:</td>
+                            <td class="total-value" id="total-amount">0 đ</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="cart-actions">
+                <button type="button" class="btn btn-clear" id="btn-delete-all">Xóa tất cả</button>
+                <button type="button" class="btn btn-checkout" id="btn-checkout">Thanh toán</button>
+            </div>
+        </section>
+
+        <p class="page-note">Bài thực hành JavaScript: mảng object, DOM, map(), reduce(), sự kiện và xóa sản phẩm.</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Hinh minh hoa dong ho thong minh</title>
+  <rect width="120" height="120" rx="16" fill="#f1f5f9"/>
+  <path d="M45 12h30l5 25H40zM40 83h40l-5 25H45z" fill="#94a3b8"/>
+  <rect x="29" y="30" width="62" height="62" rx="17" fill="#1f2937"/>
+  <rect x="35" y="36" width="50" height="50" rx="12" fill="#0f172a" stroke="#64748b" stroke-width="2"/>
+  <circle cx="60" cy="61" r="17" fill="#2563eb"/>
+  <path d="M60 48v14l10 6" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="61" r="3" fill="#fff"/>
+</svg>
